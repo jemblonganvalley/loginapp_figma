@@ -16,3 +16,23 @@
   border-radius: 15px;
   box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+.right_side,
+.left_side {
+  width: 50%;
+  height: 100%;
+}
+
+.right_side {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.right_side .login_form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
