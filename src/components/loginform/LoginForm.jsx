@@ -18,12 +18,16 @@ const LoginForm = () => {
               name="email"
               placeholder="Email Address"
             />
+            <div className="gradient_border"></div>
+
             <input
               type="password"
               id="password"
               name="password"
               placeholder="password"
             />
+            <div className="gradient_border"></div>
+
             <button className="login_button">continue</button>
           </form>
 
