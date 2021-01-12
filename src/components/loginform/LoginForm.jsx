@@ -28,13 +28,24 @@ const LoginForm = () => {
             />
             <div className="gradient_border"></div>
 
-            <button className="login_button">continue</button>
+            <button className="login_button">
+              continue
+              <i className="fa fa-chevron-right"></i>
+            </button>
           </form>
 
           <div className="socmed_login">
             <h3>Or Login With</h3>
-            <button className="g_login">Sign In With Google</button>
-            <button className="f_login">Sign in Wit Facebook</button>
+
+            <button className="g_login">
+              <i className="fa fa-google-plus"></i>
+              Sign In With Google
+            </button>
+
+            <button className="f_login">
+              <i className="fa fa-facebook"></i>
+              Sign in With Facebook
+            </button>
           </div>
         </div>
       </div>
