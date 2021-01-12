@@ -1,11 +1,18 @@
 import "./LoginForm.css";
+import awan1 from "../../assets/decorationBawahKiri.svg";
+import awan2 from "../../assets/decorationAtasKanan.svg";
+import bulet1 from "../../assets/bulet1.svg";
 
 const LoginForm = () => {
   return (
     <main className="form_wrapper">
       <div className="form_container">
         <div className="left_side">
-          <h1>left side</h1>
+          <img className="decorationAwan1" src={awan1} alt="awan satu" />
+
+          <img src={awan2} alt="awan dua" className="decorationAwan2" />
+
+          <img src={bulet1} alt="lingkaran 1" className="bulet1" />
         </div>
 
         <div className="right_side">
